@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d("TAG", "aaa b1");
 
         Log.d("TAG", "First branch");
+        Log.d("TAG", "First branch2");
     }
 }
