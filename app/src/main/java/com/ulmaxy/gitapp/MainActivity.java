@@ -3,8 +3,15 @@ package com.ulmaxy.gitapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+
+    interface CustomListener extends View.OnClickListener {
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
