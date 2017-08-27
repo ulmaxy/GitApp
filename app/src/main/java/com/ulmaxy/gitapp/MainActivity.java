@@ -24,5 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d("TAG", "First branch2");
         Log.d("TAG", "bla bla");
         Log.d("TAG", "some_branch");
+        1
     }
 }
